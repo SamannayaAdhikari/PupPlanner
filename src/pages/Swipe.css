@@ -1,0 +1,69 @@
+/* body {
+  overflow: hidden; /* Hide scrollbars */
+/* }  */ */
+
+.swipe-container {
+  overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .user-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 23px;
+    padding: 20px;
+    height:410px;
+    width: 800px;
+    margin-left: 300px;
+   
+  }
+  
+  .user-card img {
+    width: 100%;
+    height: 50vh;
+    
+  }
+  .main-info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;;
+    
+  }
+
+  .swipe-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  button:nth-child(1) {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  button:nth-child(2) {
+    background-color: #58e067;
+    color: white;
+  }
+  

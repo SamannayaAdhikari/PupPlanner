@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+// import Adopt from './pages/Adopt';
+// import Login from './pages/Login';
+// import PetSitter from './pages/PerSitter';
+// import Profile from './pages/Profile';
+import Swipe from './pages/Swipe';
+// import YourChoices from './pages/YourChoices';
+// import YourMatches from './pages/YourMatches';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Login /> */}
+      <Swipe />
+      {/* <Profile /> */}
+      {/* <YourMatches /> */}
+      {/* <Adopt /> */}
+      {/* <YourChoices /> */}
+      {/* <PetSitter /> */}
     </div>
   );
 }
